@@ -1,0 +1,54 @@
+{
+  "categories": [
+    {
+      "id": 245,
+      "name": "Labtops"
+    },
+    {
+      "id": 345,
+      "name": "Tablets"
+    },
+    {
+      "id": 426,
+      "name": "Mobiles"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "Name": "lenovo",
+      "price": 100,
+      "ads": 2,
+      "taxes": 426,
+      "discount": 43,
+      "category": "labtop"
+    },
+    {
+      "id": 2,
+      "Name": "sumsung",
+      "price": 4574,
+      "ads": 6365,
+      "taxes": 5744,
+      "discount": 5747,
+      "category": "364"
+    },
+    {
+      "id": 3,
+      "Name": "iphone",
+      "price": 190,
+      "ads": 1,
+      "taxes": 245,
+      "discount": 15,
+      "category": "labtop"
+    },
+    {
+      "id": 4,
+      "Name": "huawei",
+      "price": 200,
+      "ads": 5,
+      "taxes": 977,
+      "discount": 60,
+      "category": "labtop"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+<div class="content">
+    <div class="container" *ngFor="let item of productList; let i = index">
+        <h3>name: {{item.Name}}</h3>
+        <h3>cat: {{item.category}}</h3>
+        <h3>price: {{item.price}}</h3>
+        <h3>ads: {{item.ads}}</h3>
+        <h3>taxes: {{item.taxes}}</h3>
+        <h3>discount: {{item.discount}}</h3>
+        <button (click)="remove(i,item.id)">remove </button>
+        <button  (click)="edit(i,item.id)" >Edit</button>
+    </div>
+</div>
+
+<button routerLink="/addproduct" routerLinkActive="active">add product</button>

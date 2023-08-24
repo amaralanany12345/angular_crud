@@ -1,0 +1,15 @@
+<form  (ngSubmit)="editProduct(editedProduct.id)">
+    <label>name</label><br/>
+    <input type="text" name="Name" placeholder="name" [(ngModel)]="editedProduct.Name" /><br/>
+    <label>price</label><br/>
+    <input type="number" name="price" placeholder="price"[(ngModel)]="editedProduct.price" /><br/>
+    <label>ads</label><br/>
+    <input type="number" name="ads" placeholder="ads" [(ngModel)]="editedProduct.ads"/><br/>
+    <label>taxese</label><br/>
+    <input type="number" name="taxes" placeholder="taxes" [(ngModel)]="editedProduct.taxes"/><br/>
+    <label>discount</label><br/>
+    <input type="number" name="discount" placeholder="discount" [(ngModel)]="editedProduct.discount"/><br/>
+    <label>category</label><br/>
+    <input type="text"  placeholder="category" name="category" [(ngModel)]="editedProduct.category"/><br/>
+    <button type="submit">edit </button>
+</form>
